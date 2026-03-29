@@ -37,7 +37,7 @@ br-b3e73e44ffb6 			 172.19.0.1/16
 docker0 			 172.17.0.1/16  
 default Gateway 192.168.10.1  
 -------------------WAN-------------------  
-85.85.120.44  
+192.0.2.69  
 -----Último evento antes de la caída-----  
 Mar 29 22:55:30 petete systemd-journald[524]: Received client request to flush runtime journal.  
 -----------------------------------------  
