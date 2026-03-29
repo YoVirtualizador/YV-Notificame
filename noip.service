@@ -1,0 +1,14 @@
+[Unit]
+Description=Noip notificador por correo de YoVirtualizador
+Wants=network-online.target
+After=network-online.target systemd-journald.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/noip/noip.sh
+TimeoutStartSec=120
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
