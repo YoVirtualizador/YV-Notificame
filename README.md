@@ -20,7 +20,7 @@ La respuesta esperada debería ser algo parecido a esto:
 
 
 
-
+```
 __   __ __     ___      _               _ _              _              
 \ \ / /_\ \   / (_)_ __| |_ _   _  __ _| (_)______ _  __| | ___  _ __   
  \ V / _ \ \ / /| | '__| __| | | |/ _` | | |_  / _` |/ _` |/ _ \| '__|  
@@ -41,3 +41,4 @@ default Gateway 192.168.10.1
 -----Último evento antes de la caída-----  
 Mar 29 22:55:30 petete systemd-journald[524]: Received client request to flush runtime journal.  
 -----------------------------------------  
+```
